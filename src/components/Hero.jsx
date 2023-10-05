@@ -2,6 +2,8 @@ import React from "react";
 import img from "../assests/images/hero.jpeg";
 import { TypeAnimation } from 'react-type-animation';
 import { BiSolidRightArrow } from "react-icons/bi";
+import res from '../assests/images/resume.pdf'
+
 function Hero() {
   return (
     <section id='hero'>
@@ -29,12 +31,12 @@ function Hero() {
             <p className="text-gray-500 mt-2 font-bold">
             I am a Full-Stack developer based in Karachi,Pakistan. I am very passionate about improving my coding skills & developing applications & websites. Working for myself to improve my skills. Love to build Full-Stack clones.
             </p>
-            <button className="group text-white px-6 py-3 flex items-center lg:mr-[430px]  bg-gradient-to-r from-cyan-500 to to-blue-500">
+            <a  href={res} download='Resume' className="group text-white px-6 py-3 flex items-center lg:mr-[430px]  bg-gradient-to-r from-cyan-500 to to-blue-500">
               Resume{" "}
               <span className="text-white ml-2 group-hover:rotate-90 duration-200">
                 <BiSolidRightArrow />
               </span>{" "}
-            </button>
+            </a>
           </div>
           <div className="img ml-10 mt-2 lg:w-full">
             <img
