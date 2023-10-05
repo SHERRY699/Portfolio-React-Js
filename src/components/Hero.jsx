@@ -40,7 +40,7 @@ function Hero() {
             <img
               src={img}
               alt=""
-              className="w-[300px]   lg:rounded-md"
+              className="w-[300px]  h-[400px] lg:h-[500px]   lg:rounded-md"
             />
           </div>
         </div>

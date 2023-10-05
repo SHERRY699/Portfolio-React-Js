@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <section id="about">
-      <div className="w-full h-screen  flex flex-col items-center bg-gradient-to-b from-gray-800 to-black">
+      <div className="w-full h-screen  flex flex-col items-center bg-gradient-to-b from-gray-800 to-black pt-20 lg:pt-0">
         <div className="about ">
           <h1 className="text-white text-5xl border-b-4 border-gray-500 font-bold">
             About Me
