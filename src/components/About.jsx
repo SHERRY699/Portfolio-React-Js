@@ -13,7 +13,7 @@ function About() {
         <h1 className="text-white text-3xl border-b-4 border-gray-500 font-bold inline-block hover:scale-105 duration-200">
            Hi I Am Shehryar Nasir
           </h1>
-          <p className="pt-20 lg:text-xl">
+          <p className="pt-20 lg:text-xl px-4">
             I am a budding web developer residing in Karachi, Pakistan.
             Currently, I'm pursuing my 5th semester of Computer Science at NED
             University. My journey in the world of web development began with a
