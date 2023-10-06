@@ -68,10 +68,10 @@ function Skills() {
     <section id='skills'>
       <div className="d bg-gradient-to-b from-gray-800 to-black w-full h-full">
       <div className="  max-w-screen-lg  pt-10 lg:mt-0">
-        <h1 className="text-white text-4xl inline-block  border-b-4 border-gray-500  lg:mt-4 lg:ml-[650px] ">
+        <h1 className="text-white text-4xl inline-block  border-b-4 border-gray-500  lg:mt-4 lg:ml-[650px]  ml-4">
           Skills
         </h1>
-        <p className="text-gray-500 text-2xl mt-1 lg:ml-[500px]">
+        <p className="text-gray-500 text-2xl mt-1 lg:ml-[500px] px-4 lg:px-0">
           Technologies I Have Worked With
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-12 sm:px-2 gap-8  lg:ml-[350px] mt-20 ">

@@ -7,9 +7,11 @@ function Navbar() {
   return (
     <section>
       <div className="nav bg-black w-full h-20 flex items-center justify-between px-4 md:fixed">
-        <div className="name">
-          <h1 className="font-signature text-white">SHERRY</h1>
-        </div>
+        <a href="#hero">
+          <div className="name">
+            <h1 className="font-signature text-white">SHERRY</h1>
+          </div>
+        </a>
 
         <div className="bars text-white md:hidden">
           <button

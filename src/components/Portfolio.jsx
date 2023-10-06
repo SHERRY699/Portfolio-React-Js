@@ -42,9 +42,9 @@ function Portfolio() {
   return (
     <section id='Projects'>
       <div className="v  w-full bg-gradient-to-b from-black via-black to-gray-800 ">
-    <div className="main lg:max-w-screen-lg">
-    <h1 className='text-white text-4xl inline-block  border-b-4 border-gray-500  lg:ml-[650px]'>Portfolio</h1>
-    <p className='text-gray-500 text-2xl mt-1 lg:ml-[570px]'>Check Some Of My Work</p>
+    <div className="main lg:max-w-screen-lg ">
+    <h1 className='text-white text-4xl inline-block  border-b-4 border-gray-500  lg:ml-[650px] ml-4'>Portfolio</h1>
+    <p className='text-gray-500 text-2xl mt-1 lg:ml-[570px] px-4'>Check Some Of My Work</p>
     </div>
    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-12 sm:px-2 gap-8 max-w-screen-lg lg:ml-56">
    {proj.map((item=>(

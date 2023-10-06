@@ -10,7 +10,7 @@ function About() {
           </h1>
         </div>
         <div className="d mt-6 text-gray-500 lg:px-28 ">
-        <h1 className="text-white text-3xl border-b-4 border-gray-500 font-bold inline-block hover:scale-105 duration-200">
+        <h1 className="text-white text-3xl border-b-4 border-gray-500 font-bold inline-block hover:scale-105 duration-200 ml-4">
            Hi I Am Shehryar Nasir
           </h1>
           <p className="pt-20 lg:text-xl px-4">
